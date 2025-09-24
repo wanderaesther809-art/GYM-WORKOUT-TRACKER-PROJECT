@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY GYM WORKOUT TRACKER</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>MY GYM WORKOUT TRACKER</h1>
+    <!--Filter Exercises by Muscle Group-->
+    <section id="filer-exercises">
+        <h2>Filter Exercises</h2>
+        <button data-group="All">All</button>
+        <button data-group="Legs">Legs</button>
+        <button data-group="Chest">Chest</button>
+        <button data-group="Back">Back</button>
+        <button data-group="Arms">Arms</button>
+        <button data-group="Shoulders">Shoulders</button>
+        <button data-group="Core">Core</button>
+
+    </section>
+
+    <!--Execise Library-->
+
+    <section id="my exercises">
+        <h2>Exercise Library</h2>
+        <ul id="exercise-cards"></ul>
+        
+    </section>
+
+    <!--Workout Log Table-->
+
+    <section id="my log">
+        <h2>My Workout LOg</h2>
+        <table id="session list">
+            <thead>
+                <tr>
+                    <th>Exercise</th>
+                    <th>Sets</th>
+                    <th>Weight (kg)</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+
+                <!--This is where workout sessions are displayed-->
+            </tbody>
+
+        </table>
+    </section>
+
+    <!--Log New Workout-->
+
+    <section id="log workout">
+    <h2>Log a New Workout</h2>
+    <form id="session-form">
+        <label for="exerciseSelect">Select Exercise:</label>
+        <select id="exerciseSelect"></select>
+
+
+        <label for="setsInput">Sets:</label>
+        <input type="number" id="setsInput" placeholder="e.g.,3" min="1" required>
+
+        <label for="repsInput">Reps:</label>
+        <input type="number" id="repsInput" placeholder="e.g.,12" min="1"required>
+
+        <label for="weightInput">Weight (kg):</label>
+        <input type="number" id="weightInput" placeholder="optional" min="0">
+        
+        <button type="submit">Add to My Log</button>
+
+
+    </form>
+    </section>
+    
+</body>
+</html>
