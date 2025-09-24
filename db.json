@@ -1,0 +1,78 @@
+{
+  "exercises": [
+    {
+      "id": 1,
+      "name": "Squat",
+      "muscle_group": "Legs",
+      "equipment": "Barbell",
+      "image": "https://cdn.pixabay.com/photo/2018/07/04/14/17/gym-3516208_960_720.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Bench Press",
+      "muscle_group": "Chest",
+      "equipment": "Barbell",
+      "image": "https://media.istockphoto.com/id/670937518/photo/bench-press-workout.jpg?s=2048x2048&w=is&k=20&c=Muv_GR7g1y1CJh2E-R5C4fpmVQUSE0vDSUss6QpWbkE="
+    },
+    {
+      "id": 3,
+      "name": "Deadlift",
+      "muscle_group": "Back",
+      "equipment": "Barbell",
+      "image": "https://media.istockphoto.com/id/670937518/photo/bench-press-workout.jpg?s=2048x2048&w=is&k=20&c=Muv_GR7g1y1CJh2E-R5C4fpmVQUSE0vDSUss6QpWbkE="
+    },
+    {
+      "id": 4,
+      "name": "Bicep Curl",
+      "muscle_group": "Arms",
+      "equipment": "Dumbbell",
+      "image": "https://media.istockphoto.com/id/1370779215/photo/shot-of-a-sporty-young-woman-exercising-with-a-dumbbell-in-a-gym.jpg?s=612x612&w=0&k=20&c=PFz2tLgzbA_GWhFhMGzkpbuVkfznradp3KpOotVbTGY="
+    },
+    {
+      "id": 5,
+      "name": "Pull Up",
+      "muscle_group": "Back",
+      "equipment": "Bodyweight",
+      "image": "https://media.istockphoto.com/id/1374453269/photo/shot-of-a-group-of-people-completing-pull-ups-together.jpg?s=2048x2048&w=is&k=20&c=8mFiw8F9muifDvWD2Na-JX9qh_e-K-djQZT0qo-AozE="
+    },
+    {
+      "id": 6,
+      "name": "Shoulder Press",
+      "muscle_group": "Shoulders",
+      "equipment": "Dumbbell",
+      "image": "https://media.istockphoto.com/id/2220252718/photo/shoulder-workout-in-a-gym.jpg?s=612x612&w=0&k=20&c=OzybyY4YrraJ568nk8Mw5MtrnpEmp6sDgzh1-4yw-EY="
+    },
+    {
+      "id": 7,
+      "name": "Lunges",
+      "muscle_group": "Legs",
+      "equipment": "Bodyweight",
+      "image": "https://media.istockphoto.com/id/2060259928/photo/african-american-fitness-woman-stretching-legs-performing-forward-lunges-studio.jpg?s=612x612&w=0&k=20&c=pfuppSUOOCdHhUOdjeHhe-6nKwXVfeiVXvFv71uagcw="
+    },
+    {
+      "id": 8,
+      "name": "Plank",
+      "muscle_group": "Core",
+      "equipment": "Bodyweight",
+      "image": "https://media.istockphoto.com/id/1938931471/photo/sporty-woman-performing-push-ups-from-the-floor-in-the-gym.jpg?s=612x612&w=0&k=20&c=-DrzPJfrWAXpvoC2qlseO0Niqa8iOPlVbAdsO4NNcLM="
+    }
+  ],
+  "workouts": [
+    {
+      "id": 1,
+      "exerciseId": 1,
+      "sets": 3,
+      "reps": 10,
+      "weight": 60,
+      "date": "2025-09-24"
+    },
+    {
+      "id": 2,
+      "exerciseId": 2,
+      "sets": 4,
+      "reps": 8,
+      "weight": 40,
+      "date": "2025-09-23"
+    }
+  ]
+}

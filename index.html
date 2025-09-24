@@ -9,7 +9,7 @@
 <body>
     <h1>MY GYM WORKOUT TRACKER</h1>
     <!--Filter Exercises by Muscle Group-->
-    <section id="filer-exercises">
+    <section id="filter-exercises">
         <h2>Filter Exercises</h2>
         <button data-group="All">All</button>
         <button data-group="Legs">Legs</button>
@@ -23,7 +23,7 @@
 
     <!--Execise Library-->
 
-    <section id="my exercises">
+    <section id="my-exercises">
         <h2>Exercise Library</h2>
         <ul id="exercise-cards"></ul>
         
@@ -31,13 +31,14 @@
 
     <!--Workout Log Table-->
 
-    <section id="my log">
-        <h2>My Workout LOg</h2>
-        <table id="session list">
+    <section id="my-log">
+        <h2>My Workout Log</h2>
+        <table id="session-list">
             <thead>
                 <tr>
                     <th>Exercise</th>
                     <th>Sets</th>
+                    <th>Reps</th>
                     <th>Weight (kg)</th>
                     <th>Actions</th>
                 </tr>
@@ -52,7 +53,7 @@
 
     <!--Log New Workout-->
 
-    <section id="log workout">
+    <section id="log-workout">
     <h2>Log a New Workout</h2>
     <form id="session-form">
         <label for="exerciseSelect">Select Exercise:</label>
@@ -63,7 +64,7 @@
         <input type="number" id="setsInput" placeholder="e.g.,3" min="1" required>
 
         <label for="repsInput">Reps:</label>
-        <input type="number" id="repsInput" placeholder="e.g.,12" min="1"required>
+        <input type="number" id="repsInput" placeholder="e.g.,15" min="1"required>
 
         <label for="weightInput">Weight (kg):</label>
         <input type="number" id="weightInput" placeholder="optional" min="0">
@@ -73,6 +74,7 @@
 
     </form>
     </section>
+    <script src="index.js"></script>
     
 </body>
 </html>
