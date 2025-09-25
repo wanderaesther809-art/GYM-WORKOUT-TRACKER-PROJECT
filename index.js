@@ -75,9 +75,7 @@ document.getElementById("session-form").addEventListener("submit", (e) => {
     sets: parseInt(document.getElementById("setsInput").value),
     reps: parseInt(document.getElementById("repsInput").value),
     weight: parseInt(document.getElementById("weightInput").value) || 0,
-    date:
-      document.getElementById("dateInput").value ||
-      new Date().toISOString().split("T")[0], // pick date OR default today
+    date: new Date().toISOString().split("T")[0], // pick date OR default today
   };
 
   fetch(`${API_URL}/workouts`, {

@@ -19,7 +19,7 @@
       "name": "Deadlift",
       "muscle_group": "Back",
       "equipment": "Barbell",
-      "image": "https://media.istockphoto.com/id/670937518/photo/bench-press-workout.jpg?s=2048x2048&w=is&k=20&c=Muv_GR7g1y1CJh2E-R5C4fpmVQUSE0vDSUss6QpWbkE="
+      "image": "https://cdn.pixabay.com/photo/2017/06/09/11/15/deadlift-2386565_640.jpg"
     },
     {
       "id": 4,
@@ -62,9 +62,9 @@
       "id": 1,
       "exerciseId": 1,
       "sets": 3,
-      "reps": 10,
+      "reps": 15,
       "weight": 60,
-      "date": "2025-09-24"
+      "date": "2025-09-25"
     },
     {
       "id": 2,
@@ -72,7 +72,15 @@
       "sets": 4,
       "reps": 8,
       "weight": 40,
-      "date": "2025-09-23"
+      "date": "2025-09-25"
+    },
+    {
+      "exerciseId": 1,
+      "sets": 3,
+      "reps": 15,
+      "weight": 60,
+      "date": "2025-09-25",
+      "id": 3
     }
   ]
 }
